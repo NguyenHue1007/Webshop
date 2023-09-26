@@ -1,0 +1,49 @@
+.cf-title-03 h3 {
+        font-size: 28px;
+        font-weight: 500;
+        letter-spacing: 0;
+        line-height: 1.5em;
+        padding-bottom: 15px;
+        position: relative;
+        text-align: left;
+        color:rgb(80,80,80);
+
+      }
+      .cf-title-03 h3:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 5px;
+        width: 55px;
+        background-color: #FF4500;
+      }
+      .cf-title-03 h3:after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 2px;
+        height: 1px;
+        width: 95%;
+        max-width: 255px;
+        background-color: #FF4500;
+      }
+
+    a{
+      text-decoration: none;
+    }
+
+     .text-reset p {
+      margin: 0;
+      padding: 0 0 8px 0;
+     }
+     .card {
+      min-height: 383px;
+     }
+     .price {
+      position: absolute;
+      bottom: 15px;
+      line-height: 15px;
+      left: calc(50% - 56px);
+      color: red;
+     }
